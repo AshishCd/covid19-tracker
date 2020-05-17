@@ -1,0 +1,8 @@
+td.center:hover {
+    cursor: pointer;
+}
+
+td.center {
+    text-align: center;
+    margin-top: 10px;
+}

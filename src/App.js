@@ -3,6 +3,7 @@ import { Cards, Charts, CountryPicker } from "./components";
 import styles from "./App.module.css";
 import { fetchData } from "./api";
 import coronaImage from "./images/image.png";
+import Table from "../src/components/Tables/Table";
 
 class App extends Component {
   state = {
@@ -29,6 +30,7 @@ class App extends Component {
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Charts data={data} country={country} />
+        {/* <Table /> */}
       </div>
     );
   }
